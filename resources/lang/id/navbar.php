@@ -4,7 +4,7 @@ return [
     'mycart' => 'Keranjang Saya',
     'login' => 'Masuk',
     'register' => 'Daftar',
-    'account_maintenance' => 'Manajemen Akun-akun',
+    'account_maintenance' => 'Akun Manajemen',
     'account_setting' => 'Pengaturan Akun',
     'logout' => 'Keluar'
 ];

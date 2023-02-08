@@ -1,6 +1,6 @@
 <?php
 return [
-    'title' => 'Manajemen Akun-akun',
+    'title' => 'Akun Manajemen',
     'tr_first_name' => 'Nama Awal',
     'tr_last_name' => 'Nama Akhir',
     'role' => 'Jabatan',
