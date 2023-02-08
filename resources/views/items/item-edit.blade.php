@@ -1,6 +1,20 @@
 @extends('layouts.layout')
 @section('title', 'Update items')
 @section('content')
+
+<style>
+    .btn-info {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #1abc9c;
+    --bs-btn-border-color: none;
+    }
+    .btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #197462;
+    border-color: none;
+}
+</style>
+
     <div class="container p-5">
         <form action="{{route('food.update',$item->item_id)}}" method="POST" enctype="multipart/form-data">
             @csrf
